@@ -19,8 +19,8 @@ while True:
         ]
     )
 
-    print("\033[32m" + completion.choices[0].message.content + "\n")
-    ```
+print("\033[32m" + completion.choices[0].message.content + "\n")
+```
 By setting the condition of the `while` loop to `True`, which is a boolean value, the loop will continue running the code inside it indefinitely until we manually stop the program.
 
 Now you can keep asking questions and receiving responses from your AI assistant as long as you wish.
